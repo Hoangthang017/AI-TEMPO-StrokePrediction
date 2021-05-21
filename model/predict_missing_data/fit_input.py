@@ -12,5 +12,5 @@ def fit_input(input, type_pre):
   if (type_pre == 'heart_disease'):
     columns = ["gender", "ever_married", "bmi", "smoking_status", "blood"]
   else:
-    columns = ["smooking_status", "bmi", "blood","gender", "Residence_type"]
+    columns = ["smoking_status", "bmi", "blood","gender", "Residence_type"]
   return input[columns]
